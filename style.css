@@ -1,0 +1,949 @@
+@font-face {
+    font-family: 'Norwester';
+    src: url(./Fonts/norwester.otf);
+}
+@font-face {
+    font-family: 'Anonymus Pro';
+    src: url(./Fonts/AnonymousPro-Regular.ttf);
+}
+@font-face {
+    font-family: 'Anonymus Pro Bold';
+    src: url(./Fonts/AnonymousPro-Bold.ttf);
+}
+
+body{
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: #EBEDF2;
+}
+
+#header{
+    background: url("./images/To\ be\ downloaded.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90vw 50vw;
+}
+#header-div{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#video-editor-text{
+    font-size: 5.7vw;
+    font-family: 'Anonymus Pro';
+    font-weight: 200;
+    position: relative;
+    top: 9.3vw;
+}
+#portfolio-text{
+    font-size: 10.5vw;
+    font-family: 'Norwester';
+    font-weight: 500;
+    position: relative;
+    bottom: 5vw;
+}
+#by-nirmal-patel-text{
+    font-size: 1.85vw;
+    font-family: 'Anonymus Pro';
+    font-weight: 100;
+    position: relative;
+    bottom: 14.7vw;
+}
+
+@media (max-width: 1025px) {
+    #header{
+        background: url("./images/To\ be\ downloaded.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 110vw 60vw;
+    }
+    #header-div{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    #video-editor-text{
+        font-size: 7vw;
+        font-family: 'Anonymus Pro';
+        font-weight: 200;
+        position: relative;
+        top: 11vw;
+    }
+    #portfolio-text{
+        font-size: 13vw;
+        font-family: 'Norwester';
+        font-weight: 500;
+        position: relative;
+        bottom: 7vw;
+    }
+    #by-nirmal-patel-text{
+        font-size: 2.5vw;
+        font-family: 'Anonymus Pro';
+        font-weight: 100;
+        position: relative;
+        bottom: 19vw;
+    }
+}
+
+
+@media (max-width: 770px) {
+    #header{
+        background: url("./images/To\ be\ downloaded.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 146vw 75vw;
+    }
+    #header-div{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    #video-editor-text{
+        font-size: 8.5vw;
+        font-family: 'Anonymus Pro';
+        font-weight: 200;
+        position: relative;
+        top: 15vw;
+    }
+    #portfolio-text{
+        font-size: 16vw;
+        font-family: 'Norwester';
+        font-weight: 500;
+        position: relative;
+        bottom: 7vw;
+    }
+    #by-nirmal-patel-text{
+        font-size: 3vw;
+        font-family: 'Anonymus Pro';
+        font-weight: 100;
+        position: relative;
+        bottom: 22.25vw;
+    }
+}
+
+@media (max-width: 480px) {
+    #header{
+        background: url("./images/To\ be\ downloaded.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 160vw 85vw;
+    }
+    #header-div{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    #video-editor-text{
+        font-size: 9vw;
+        font-family: 'Anonymus Pro';
+        font-weight: 200;
+        position: relative;
+        top: 17.3vw;
+    }
+    #portfolio-text{
+        font-size: 19vw;
+        font-family: 'Norwester';
+        font-weight: 500;
+        position: relative;
+        bottom: 7vw;
+    }
+    #by-nirmal-patel-text{
+        font-size: 4.5vw;
+        font-family: 'Anonymus Pro';
+        font-weight: 100;
+        position: relative;
+        bottom: 24.5vw;
+    }
+}
+/*----------------------------------------------------COMPLETION OF !ST PAGE----------------------------------------------------------------------------*/
+
+#about-div{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#nirmalpatel-img{
+    height: 35vw;
+    position: absolute;
+    right: 7vw;
+}
+#about-div-text{
+    display: inline-flex;
+    flex-direction: column;
+    width: 600px;
+    position: relative;
+    left: 12vw;
+}
+#hello-text{
+    font-size: 5vw;
+    font-family: 'Anonymus Pro';
+    font-weight: 900;
+    color: #025067;
+    position: relative;
+    top: 9.5vw;
+}
+#iamnirmal{
+    font-size: 7vw;
+    font-family: 'Norwester';
+    font-weight: 500;
+    position: relative;
+    bottom: 1vw;
+}
+#about-para{
+    font-size: 1.6vw;
+    font-family: 'Anonymus Pro';
+    font-weight: 100;
+    color: black;
+    position: relative;
+    bottom: 7vw;
+    line-height: 1.9vw;
+    display: inline-block;
+    width: 30vw;
+}
+
+@media (max-width: 1025px){
+  
+    #nirmalpatel-img{
+        height: 38vw;
+        position: absolute;
+        right: 5vw;
+    }
+    #about-div-text{
+        display: inline-flex;
+        flex-direction: column;
+        width: 500px;
+        position: relative;
+        left: 10vw;
+    }
+    #hello-text{
+        font-size: 6vw;
+        font-family: 'Anonymus Pro';
+        font-weight: 900;
+        color: #025067;
+        position: relative;
+        top: 11.8vw;
+    }
+    #iamnirmal{
+        font-size: 8vw;
+        font-family: 'Norwester';
+        font-weight: 500;
+        position: relative;
+        bottom: 0.5vw;
+    }
+    #about-para{
+        font-size: 1.9vw;
+        font-family: 'Anonymus Pro';
+        font-weight: 100;
+        color: black;
+        position: relative;
+        bottom: 7vw;
+        line-height: 2.1vw;
+        display: inline-block;
+        width: 33.5vw;
+    }
+    
+}
+
+@media (max-width: 770px){
+    
+    #about-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+       height: 90vw;
+    }
+
+    #nirmalpatel-img{
+        height: 38vw;
+        position: absolute;
+        right: 25vw;
+    }
+    #about-div-text{
+        display: inline-flex;
+        flex-direction: column;
+        width: 100vw;
+        position: relative;
+        left: 0vw;
+        top: 25vw;
+    }
+    #hello-text{
+        font-size: 6vw;
+        font-family: 'Anonymus Pro';
+        text-align: center;
+        font-weight: 900;
+        color: #025067;
+        position: relative;
+        top: 11.8vw;
+    }
+    #iamnirmal{
+        font-size: 8vw;
+        font-family: 'Norwester';
+        text-align: center;
+        font-weight: 500;
+        position: relative;
+        bottom: 0.5vw;
+    }
+    #about-para{
+        font-size: 2.5vw;
+        font-family: 'Anonymus Pro';
+        text-align: justify;
+        font-weight: 100;
+        color: black;
+        position: relative;
+        top: -5vw;
+        left: 0vw;
+        line-height: 2.8vw;
+        width: 80vw;
+       text-justify: inter-word;
+       margin: 0 auto;
+       overflow: hidden;
+    }
+}
+
+@media (max-width: 480px) {
+    
+    #about-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+       height: 120vw;
+    }
+
+    #nirmalpatel-img{
+        height: 43vw;
+        position: absolute;
+        right: 21.5vw;
+    }
+    #about-div-text{
+        display: inline-flex;
+        flex-direction: column;
+        width: 100vw;
+        position: relative;
+        left: 0vw;
+        top: 27vw;
+    }
+    #hello-text{
+        font-size: 8vw;
+        font-family: 'Anonymus Pro';
+        text-align: center;
+        font-weight: 900;
+        color: #025067;
+        position: relative;
+        top: 11.8vw;
+    }
+    #iamnirmal{
+        font-size: 10vw;
+        font-family: 'Norwester';
+        text-align: center;
+        font-weight: 500;
+        position: relative;
+        bottom: 3.5vw;
+    }
+    #about-para{
+        font-size: 3.5vw;
+        font-family: 'Anonymus Pro';
+        text-align: justify;
+        font-weight: 100;
+        color: black;
+        position: relative;
+        top: -8vw;
+        left: 0vw;
+        line-height: 4.3vw;
+        width: 80vw;
+       text-justify: inter-word;
+       margin: 0 auto;
+       overflow: hidden;
+    }
+}
+/*------------------------------------------------------------------COMPLETION OF PAGE 2---------------------------------------------------------------*/
+#skills-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+#my-text{
+    font-size: 4vw;
+    font-family: 'Anonymus Pro';
+    font-weight: 100;
+}
+#skills-text{
+    font-size: 7vw;
+    font-family: 'Norwester';
+    font-weight: 500;
+    position: relative;
+    bottom: 10vw;
+}
+#skills-para{
+    font-size: 1.45vw;
+    font-family: 'Anonymus Pro';
+    font-weight: 100;
+    text-align: center;
+    display: inline-block;
+    width: 63vw;
+    line-height: 1.75vw;
+    position: relative;
+    bottom: 17vw;
+}
+#skills-hr{
+    position: relative;
+    bottom: 17vw;
+    width: 80vw;
+}
+#softwares{
+  display: flex;
+  justify-content: center;
+  gap: 6vw;
+  position: relative;
+  bottom: 17vw;
+}
+
+#softwares div img{
+ height: 12vw;
+}
+
+
+#softwares div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5vw;
+    font-family: 'Anonymus Pro';
+    font-weight: 100;
+    color: gray;
+    
+    
+}
+
+#softwares p{
+    position: relative;
+  bottom: 1.85vw;
+  font-size: 1.8vw;
+}
+
+@media (max-width: 1025px) {
+
+    #skills-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    
+    }
+    #my-text{
+        font-size: 5vw;
+        font-family: 'Anonymus Pro';
+        font-weight: 100;
+    }
+    #skills-text{
+        font-size: 9vw;
+        font-family: 'Norwester';
+        font-weight: 500;
+        position: relative;
+        bottom: 12vw;
+    }
+    #skills-para{
+        font-size: 1.75vw;
+        font-family: 'Anonymus Pro';
+        font-weight: 100;
+        text-align: center;
+        display: inline-block;
+        width: 75vw;
+        line-height: 1.75vw;
+        position: relative;
+        bottom: 21vw;
+    }
+    #skills-hr{
+        position: relative;
+        bottom: 21vw;
+        width: 80vw;
+    }
+    #softwares{
+      display: flex;
+      justify-content: center;
+      gap: 6vw;
+      position: relative;
+      bottom: 21vw;
+    }
+    
+    #softwares div img{
+     height: 14vw;
+    }
+    
+    
+    #softwares div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.75vw;
+        font-family: 'Anonymus Pro';
+        font-weight: 100;
+        color: gray;
+        
+        
+    }
+    
+    #softwares p{
+        position: relative;
+      bottom: 1.9vw;
+      font-size: 2.1vw;
+    }
+}
+
+@media (max-width: 770px) {
+    #skills-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        bottom: 8vw;
+        width: 100%;
+    
+    }
+    #my-text{
+        font-size: 6vw;
+        font-family: 'Anonymus Pro';
+        font-weight: 100;
+    }
+    #skills-text{
+        font-size: 11vw;
+        font-family: 'Norwester';
+        font-weight: 500;
+        position: relative;
+        bottom: 15vw;
+    }
+    #skills-para{
+        font-size: 2.25vw;
+        font-family: 'Anonymus Pro';
+        font-weight: 100;
+        text-align: center;
+        display: inline-block;
+        width: 80vw;
+        line-height: 2.75vw;
+        position: relative;
+        bottom: 25vw;
+    }
+    #skills-hr{
+        position: relative;
+        bottom: 34vw;
+        width: 81vw;
+    }
+    #softwares{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 6vw;
+      position: relative;
+      bottom: 34vw;
+    }
+    
+    #softwares div img{
+     height: 18vw;
+    }
+    
+    
+    #softwares div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.75vw;
+        font-family: 'Anonymus Pro';
+        font-weight: 100;
+        color: gray;
+        width: 20vw;
+        height: 15vw;
+        
+        
+    }
+    
+    #softwares p{
+        position: relative;
+      bottom: 2vw;
+      font-size: 2.5vw;
+    }
+}
+
+@media (max-width: 480px){
+
+    #skills-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        bottom: 8vw;
+        width: 100%;
+    
+    }
+    #my-text{
+        font-size: 7vw;
+        font-family: 'Anonymus Pro';
+        font-weight: 100;
+    }
+    #skills-text{
+        font-size: 13vw;
+        font-family: 'Norwester';
+        font-weight: 500;
+        position: relative;
+        bottom: 17.5vw;
+    }
+    #skills-para{
+        font-size: 3.25vw;
+        font-family: 'Anonymus Pro';
+        font-weight: 100;
+        text-align: center;
+        display: inline-block;
+        width: 80vw;
+        line-height: 3.75vw;
+        position: relative;
+        bottom: 30vw;
+    }
+    #skills-hr{
+        position: relative;
+        bottom: 39vw;
+        width: 81vw;
+    }
+    #softwares{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 6vw;
+      position: relative;
+      bottom: 39vw;
+    }
+    
+    #softwares div img{
+     height: 20vw;
+    }
+    
+    
+    #softwares div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.75vw;
+        font-family: 'Anonymus Pro';
+        font-weight: 100;
+        color: gray;
+        width: 22vw;
+        height: 20vw;
+        
+        
+    }
+    
+    #softwares p{
+        position: relative;
+      bottom: 2vw;
+      font-size: 3vw;
+    }
+
+}
+
+/*----------------------------------------------------3rd Completed-------------------------------------------------------------------------------------*/
+
+#projects-text-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 16vw;
+}
+#projects-text{
+    font-size: 7vw;
+    font-family: 'Norwester';
+    font-weight: 500;
+    position: relative;
+    bottom: 9.25vw;
+}
+#projects-hr{
+    position: relative;
+    bottom: 30.5vw;
+    width: 80vw;
+}
+#story-teller{
+    height: 36.75vw;
+}
+#vlog{
+    height: 36.75vw;
+}
+#explainer{
+    height: 36.75vw;
+}
+#projects-button-div{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 31vw;
+}
+
+@media (max-width: 1025px) {
+
+    #projects-text-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        bottom: 18vw;
+    }
+    #projects-text{
+        font-size: 9vw;
+        font-family: 'Norwester';
+        font-weight: 500;
+        position: relative;
+        bottom: 12vw;
+    }
+    #projects-hr{
+        position: relative;
+        bottom: 37.1vw;
+        width: 80vw;
+    }
+    #story-teller{
+        height: 40vw;
+    }
+    #vlog{
+        height: 40vw;
+    }
+    #explainer{
+        height: 40vw;
+    }
+    #projects-button-div{
+        display: flex;
+        justify-content: center;
+        gap: 0.5vw;
+        position: relative;
+        bottom: 38vw;
+    }
+}
+
+@media (max-width: 770px) {
+
+    #projects-text-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        bottom: 22vw;
+    }
+    #projects-text{
+        font-size: 12vw;
+        font-family: 'Norwester';
+        font-weight: 500;
+        position: relative;
+        bottom: 16vw;
+    }
+    #projects-hr{
+        position: relative;
+        bottom: 47.5vw;
+        width: 70vw;
+    }
+    #story-teller{
+        height: 50vw;
+    }
+    #vlog{
+        height: 50vw;
+    }
+    #explainer{
+        height: 50vw;
+    }
+    #projects-button-div{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.5vw;
+        position: relative;
+        bottom: 48.5vw;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    #projects-text-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        bottom: 22vw;
+    }
+    #projects-text{
+        font-size: 12vw;
+        font-family: 'Norwester';
+        font-weight: 500;
+        position: relative;
+        bottom: 16vw;
+    }
+    #projects-hr{
+        position: relative;
+        bottom: 47.5vw;
+        width: 70vw;
+    }
+    #story-teller{
+        height: 75vw;
+    }
+    #vlog{
+        height: 75vw;
+    }
+    #explainer{
+        height: 75vw;
+    }
+    #projects-button-div{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.5vw;
+        position: relative;
+        bottom: 48.5vw;
+    }
+
+}
+
+/*-------------------------------------------4th complete-------------------------------------------------------------------------------------------------------*/
+
+#contact{
+    background: url("./images/To\ be\ downloaded\ \(2\).png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90vw 50vw;
+
+    position: relative;
+    bottom: 30vw;
+    height: 50vw;
+}
+#contact-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 9vw;
+}
+#lets-work-text{
+    font-size: 6vw;
+    font-family: 'Anonymus Pro';
+    font-weight: 200;
+}
+#TOGETHER{
+    font-size: 10vw;
+    font-family: 'Norwester';
+    font-weight: 500;
+    position: relative;
+    bottom: 14.5vw;
+}
+#contact-logos-div{
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+    position: relative;
+    bottom: 15vw;
+}
+#contact-logos-div img{
+    height: 12vw;
+}
+
+@media (max-width: 1025px){
+
+    #contact{
+        background: url("./images/To\ be\ downloaded\ \(2\).png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100vw 60vw;
+    
+        position: relative;
+        bottom: 35vw;
+    }
+    #contact-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        top: 9vw;
+    }
+    #lets-work-text{
+        font-size: 7vw;
+        font-family: 'Anonymus Pro';
+        font-weight: 200;
+    }
+    #TOGETHER{
+        font-size: 12vw;
+        font-family: 'Norwester';
+        font-weight: 500;
+        position: relative;
+        bottom: 17vw;
+    }
+    #contact-logos-div{
+        display: flex;
+        justify-content: center;
+        gap: 5vw;
+        position: relative;
+        bottom: 20vw;
+    }
+    #contact-logos-div img{
+        height: 14vw;
+    }
+
+}
+
+@media (max-width: 770px) {
+    #contact{
+        background: url("./images/To\ be\ downloaded\ \(2\).png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 110vw 65vw;
+    
+        position: relative;
+        bottom: 40vw;
+    }
+    #contact-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        top: 9vw;
+    }
+    #lets-work-text{
+        font-size: 8vw;
+        font-family: 'Anonymus Pro';
+        font-weight: 200;
+        position: relative;
+        top: 5vw;
+    }
+    #TOGETHER{
+        font-size: 14vw;
+        font-family: 'Norwester';
+        font-weight: 500;
+        position: relative;
+        bottom: 15vw;
+    }
+    #contact-logos-div{
+        display: flex;
+        justify-content: center;
+        gap: 7vw;
+        position: relative;
+        bottom: 17vw;
+    }
+    #contact-logos-div img{
+        height: 16vw;
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
